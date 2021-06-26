@@ -1,0 +1,7 @@
+.picContainer{
+    width: 99vw;
+    height:fit-content ;
+}
+.picContainer img{
+    width: 100%;
+}

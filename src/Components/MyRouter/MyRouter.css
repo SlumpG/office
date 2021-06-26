@@ -1,0 +1,33 @@
+.flexB ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    width: 400px;
+    
+}
+ul li{
+    padding: 10px;
+    margin: 0 20px;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+ul li:hover{
+    transform: scale(0.98);
+}
+
+.flexB a{
+    text-decoration: none;
+    color:white;
+}
+.flexB {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
